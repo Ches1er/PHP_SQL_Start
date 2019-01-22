@@ -2,5 +2,5 @@
 return [
     ""=>"main@show",
     "addnote"=>"main@addnote",
-    "delnote"=>"main@del",
+    "delnote"=>"main@delnote",
 ];

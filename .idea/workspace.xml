@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b58fdb4-fbd2-4ca3-b7fd-b90a2bc65373" name="Default Changelist" comment="" />
+    <list default="true" id="81e8fdd7-1179-4a93-a269-1812359f6b2c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/functions/view_fns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theory_php_pdo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/controller_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/functions/db_fns.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/db_fns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root/routing_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/root/routing_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,105 +52,135 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="notes: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="notes@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="notes: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="notes_table: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1320254705">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="note_table" value="1" />
-          <entry key="php" value="4" />
-          <entry key="sql" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Database Element" value="1" />
-          <entry key="PHP" value="4" />
-          <entry key="Scratch" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="41" />
-          <entry key="php" value="256" />
-          <entry key="sql" value="69" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PHP" value="256" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Scratch" value="110" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="theory" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theory">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+            <state relative-caret-position="748">
+              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/root/routing.php">
+      <file leaf-file-name="theory_php_pdo" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/theory_php_pdo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="350">
+              <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="controller_main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_fns.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/functions/db_fns.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="198">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b719d14-6388-4a0b-9fa4-983833dde0af/console.sql">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://6b719d14-6388-4a0b-9fa4-983833dde0af/schema/notes/table/note_table">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="176">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dir_name</find>
+      <find>id</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6b719d14-6388-4a0b-9fa4-983833dde0af/console.sql" />
-        <option value="$PROJECT_DIR$/db_fns.php" />
+        <option value="$PROJECT_DIR$/app/functions/goods_fns.php" />
+        <option value="$PROJECT_DIR$/app/files/goods.json" />
+        <option value="$PROJECT_DIR$/app/views/goods.php" />
+        <option value="$PROJECT_DIR$/app/views/fav.php" />
+        <option value="$PROJECT_DIR$/app/functions/fav_fns.php" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_fav.php" />
+        <option value="$PROJECT_DIR$/app/functions/check_fns.php" />
+        <option value="$PROJECT_DIR$/app/views/contacts.php" />
+        <option value="$PROJECT_DIR$/resources/style.css" />
+        <option value="$PROJECT_DIR$/app/root/routing_filter.php" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_error.php" />
+        <option value="$PROJECT_DIR$/app/views/404.php" />
+        <option value="$PROJECT_DIR$/app/views/login.php" />
+        <option value="$PROJECT_DIR$/app/views/signup.php" />
         <option value="$PROJECT_DIR$/app/root/routing.php" />
-        <option value="$PROJECT_DIR$/app/root/routing_config.php" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_auth.php" />
+        <option value="$PROJECT_DIR$/app/root/root_config.php" />
+        <option value="$PROJECT_DIR$/app/root/func_config.php" />
+        <option value="$PROJECT_DIR$/app/functions/files_fns.php" />
+        <option value="$PROJECT_DIR$/app/data/users.json" />
+        <option value="$PROJECT_DIR$/app/data/records.json" />
+        <option value="$PROJECT_DIR$/app/root/init_fns_config.php" />
+        <option value="$PROJECT_DIR$/app/views/records.php" />
+        <option value="$PROJECT_DIR$/data/users.json" />
+        <option value="$PROJECT_DIR$/data/records.json" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_records.php" />
+        <option value="$PROJECT_DIR$/res/css/main.css" />
+        <option value="$PROJECT_DIR$/app/functions/records_fns.php" />
+        <option value="$PROJECT_DIR$/app/functions/auth_fns.php" />
+        <option value="$PROJECT_DIR$/theory_select" />
+        <option value="$PROJECT_DIR$/book_shop.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a86f7b37-10e9-4321-a02b-5539e6742eeb/console.sql" />
+        <option value="$PROJECT_DIR$/films" />
+        <option value="$PROJECT_DIR$/SQL_third_lesson/publ.txt" />
+        <option value="$PROJECT_DIR$/publ.txt" />
+        <option value="$PROJECT_DIR$/files/index.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4d1732c6-cd1f-449d-9151-3227d1ba78b4/console.sql" />
+        <option value="$PROJECT_DIR$/SQL_third_lesson/home_work" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/theory" />
+        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/functions/view_fns.php" />
+        <option value="$PROJECT_DIR$/app/root/routing_config.php" />
+        <option value="$PROJECT_DIR$/app/functions/db_fns.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ed0fda2f-57b1-4c9d-9cb8-84d235af4778/console.sql" />
+        <option value="$PROJECT_DIR$/app/controllers/controller_main.php" />
+        <option value="$PROJECT_DIR$/app/templates/default.php" />
+        <option value="$PROJECT_DIR$/res/style.css" />
+        <option value="$PROJECT_DIR$/app/views/main.php" />
+        <option value="$PROJECT_DIR$/theory_php_pdo" />
       </list>
     </option>
   </component>
@@ -143,12 +190,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="80" />
-    <option name="width" value="1847" />
-    <option name="height" value="1000" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3" />
+    <option name="y" value="2" />
+    <option name="width" value="1350" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -159,13 +211,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="mydomain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydomain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="mydomain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydomain" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mydomain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydomain" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mydomain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydomain" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,11 +237,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="D:/ivan/my_php/sql/fourth_lesson_Workbench_Routines_Func" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\mydomain\resources" />
+      <recent name="C:\OSPanel\domains\mydomain\users_files\dir1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,42 +269,69 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b58fdb4-fbd2-4ca3-b7fd-b90a2bc65373" name="Default Changelist" comment="" />
-      <created>1548095466850</created>
+      <changelist id="81e8fdd7-1179-4a93-a269-1812359f6b2c" name="Default" comment="" />
+      <created>1543476709356</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548095466850</updated>
-      <workItem from="1548095468137" duration="1538000" />
+      <updated>1543476709356</updated>
+      <workItem from="1543476710774" duration="34198000" />
+      <workItem from="1544190960999" duration="22689000" />
+      <workItem from="1545239163616" duration="124880000" />
+      <workItem from="1548147225040" duration="14530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1538000" />
+    <option name="totallyTimeSpent" value="315609000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="80" width="1847" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958031" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.3290993" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.101287074" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007553" side_tool="true" weight="0.34154353" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848944" weight="0.31527093" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="8" sideWeight="0.49924472" visible="true" weight="0.3825944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15634441" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1570997" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18429004" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -240,46 +339,194 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b719d14-6388-4a0b-9fa4-983833dde0af/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+    <entry file="file://$PROJECT_DIR$/app/data/users.json" />
+    <entry file="file://$PROJECT_DIR$/app/functions/files_fns.php" />
+    <entry file="file://$PROJECT_DIR$/app/data/records.json" />
+    <entry file="file://$PROJECT_DIR$/data/todo.json" />
+    <entry file="file://$PROJECT_DIR$/app/root/init_fns_config.php" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_login.php" />
+    <entry file="file://$PROJECT_DIR$/app/functions/file_storage_fns.php" />
+    <entry file="file://$PROJECT_DIR$/app/views/records.php" />
+    <entry file="file://$PROJECT_DIR$/data/users.json" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_records.php" />
+    <entry file="file://$PROJECT_DIR$/res/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/app/functions/auth_fns.php" />
+    <entry file="file://$PROJECT_DIR$/data/records.json" />
+    <entry file="file://$PROJECT_DIR$/app/functions/redirect_fns.php" />
+    <entry file="file://$PROJECT_DIR$/app/functions/records_fns.php" />
+    <entry file="file://$PROJECT_DIR$/theory_select" />
+    <entry file="file://$PROJECT_DIR$/book_shop.sql" />
+    <entry file="uml://DATABASE/a86f7b37-10e9-4321-a02b-5539e6742eeb">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>a86f7b37-10e9-4321-a02b-5539e6742eeb</OriginalElement>
+          <nodes>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.users</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.genres</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.films</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.films_genres</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8682926829268293" x="164.0" y="310.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="das://6b719d14-6388-4a0b-9fa4-983833dde0af/schema/notes/table/note_table">
+    <entry file="das://a86f7b37-10e9-4321-a02b-5539e6742eeb/schema/films/table/users" />
+    <entry file="das://a86f7b37-10e9-4321-a02b-5539e6742eeb/schema/films/table/films_genres" />
+    <entry file="das://a86f7b37-10e9-4321-a02b-5539e6742eeb/schema/films/table/genres" />
+    <entry file="das://a86f7b37-10e9-4321-a02b-5539e6742eeb/schema/films/table/films" />
+    <entry file="file://$PROJECT_DIR$/films" />
+    <entry file="uml://DATABASE/a86f7b37-10e9-4321-a02b-5539e6742eeb.SCHEMA:films">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>a86f7b37-10e9-4321-a02b-5539e6742eeb.SCHEMA:films</OriginalElement>
+          <nodes>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.users</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.genres</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.films</node>
+            <node x="" y="">a86f7b37-10e9-4321-a02b-5539e6742eeb.TABLE:films.films_genres</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6804878048780488" x="164.0" y="242.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a86f7b37-10e9-4321-a02b-5539e6742eeb/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="24" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_third_lesson/publ.txt" />
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/shops" />
+    <entry file="file://$PROJECT_DIR$/publ.txt" />
+    <entry file="file://$PROJECT_DIR$/files/index.php" />
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/country" />
+    <entry file="file://$PROJECT_DIR$/SQL_third_lesson/home_work" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d1732c6-cd1f-449d-9151-3227d1ba78b4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="173" column="44" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/books" />
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/themes" />
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/sales" />
+    <entry file="das://4d1732c6-cd1f-449d-9151-3227d1ba78b4/schema/publishing_company/table/authors" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ed0fda2f-57b1-4c9d-9cb8-84d235af4778/schema/notes/table/notes_table">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/db_fns.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/root/routing_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/root/routing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="44">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ed0fda2f-57b1-4c9d-9cb8-84d235af4778/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/root/routing.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/root/routing_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/view_fns.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/db_fns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theory_php_pdo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
         </state>
       </provider>
     </entry>

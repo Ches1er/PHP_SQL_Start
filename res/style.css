@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+}
+
+.notes_block
+{
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 900px;
+    padding: 20px;
+}
+
+.note {
+    margin-right: 10px;
+    border: 1px darkblue dashed;
+    padding: 5px;
+}
+dt{
+    font-size: larger;
+}
+dd{
+    margin: 10px 10px 5px 5px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: smaller;
+}
+
+form{
+    color: black;
+    margin: 20px;
+    display: inline-flex;
+    flex-flow: column;
+}
+
+.form_name{
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+input[type="submit"]{
+    margin-top: 5px;
+}
+

@@ -23,6 +23,12 @@ function db_insert(string $table,array $arr){
     $stmt->execute($arr);
 }
 
+function db_delete(string $table,$id){
+    $q = "DELETE FROM `{$table}` WHERE `id_note`=?";
+    $stmt = db_getConnection()->prepare($q);
+    $stmt->execute([$id]);
+}
+
 function db_insertAll(string $table,array $arr){
     $q = "INSERT INTO `{$table}`";
     $fields = array_keys($arr[0]);

@@ -1,0 +1,79 @@
+  Курсоры
+
+Указатель на запись в результате выборки. С помощью курсора мы можем перебрать выборку
+построчно. Используется в процедурах.
+
+DELIMITER //
+CREATE PROCEDURE cursor_demo () BEGIN
+и привязываем его к выборке.
+Необходимо сделать механизм, который продолжает выполнение скрипта после ошибки. Если мы
+доходим до конца выборки и курсор пытается перейти на несуществующую строку, происходит
+ошибка кода 02000 "NO ROW FOUND FOR FETCH,UPDATE,DELETE";
+DECLARE cur_end INT DEFAULT 1;
+DECLARE fid INT UNSIGNED;
+DECLARE fname VARCHAR(255);
+DECLARE cur CURSOR FOR SELECT id,name FROM films; - объявляем курсор, с типом даных "курсор"
+DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET cur_end = 0;
+Перед стартом цикла необходимо открыть курсор
+OPEN cur;
+WHILE cur_end=1 DO
+    FETCH cur INTO fid,fname;
+    SELECT fid;
+END WHILE;
+CLOSE cur;
+
+    Если необходимо использовать 2 курсора:
+
+DELIMITER //
+CREATE PROCEDURE cursor_demo () BEGIN
+DECLARE cur_end INT DEFAULT 1;
+DECLARE fid INT UNSIGNED;
+DECLARE fname VARCHAR(255);
+DECLARE cur CURSOR FOR SELECT id,name FROM films;
+DECLARE cur2 CURSOR FOR SELECT id,name FROM films;
+DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET cur_end = 0;
+
+OPEN cur;
+WHILE cur_end=1 DO
+    FETCH cur INTO fid,fname;
+    SELECT fid;
+END WHILE;
+CLOSE cur;
+
+После того, как курсор закончился, у нас cur_end = 0, поэтому, чтоб зайти во 2-й цикл,
+необходимо cur_end установить в 1
+
+SET cur_end=1;
+OPEN cur2;
+WHILE cur_end=1 DO
+    FETCH cur INTO fid,fname;
+    SELECT fid;
+END WHILE;
+CLOSE cur2;
+
+END//
+DELIMITER;
+
+    Подготовленные запросы. Prepared Statement.
+
+Выполнение запроса, в который имя таблицы будет подставляться, как аргумент.
+Процедура будет получать в кач-ве аргумента имя таблицы и id
+
+DELIMITER //
+CREATE PROCEDURE stmt_demo (tname VARCHAR(255), id INT UNSIGNED) BEGIN
+SET @q = CONCAT('SELECT * FROM ',tname," WHERE id=?") в строку не подставляется сразу, поэтому
+ставим знак ?, что говорит нам о том, что там будет какой-либо параметр;
+Для выполнения запроса используется команда - PREPARE pq FROM @q;
+SET @id=id;
+EXECUTE pq USING @id;
+Далее удаляем наш PREPARE STATEMENT:
+DEALLOCATE PREPARE pq;
+END//
+DELIMITER;
+
+Если у нас в @q будет 3 параметра со знаком ?, то в EXECUTE pq USING @id,...,... мы через
+запятую укажем все эти 3 параметра.
+Также можно использовать EXECUTE pq USING @id2; сколько угодно раз, меняя там переменную
+т.е. удобно использовать в цикле.
+
+
