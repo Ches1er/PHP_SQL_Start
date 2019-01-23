@@ -75,7 +75,7 @@ $res = $stmt->fetchAll();
 
 $stmt = $dbh->prepare("SELECT name FROM `table` WHERE name LIKE ?");
 Теперь биндим параметры:
-$stmt->bindValue(1,"%$_GET['name']%");
+$stmt->bindValue(i,"%$_GET['name']%");
 $stmt->execute();
 $res = $stmt->fetchAll();
 Таким образом мы не сможем пробросить сюда часть запроса, т.к. запрос готовится

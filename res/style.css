@@ -37,13 +37,13 @@ dd{
     color: #000;
 }
 
-a {
+a,.matches {
     text-decoration: none;
     color: red;
     font-size: smaller;
 }
 
-form{
+.addnote{
     color: black;
     margin: 20px;
     display: inline-flex;
@@ -57,5 +57,26 @@ form{
 
 input[type="submit"]{
     margin-top: 5px;
+}
+
+.sort{
+    display: inline-flex;
+    flex-flow: row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sort p{
+    margin-right: 5px;
+}
+.sort input[type="submit"]{
+    margin-top: 0px;
+    padding: 0 5px;
+}
+
+.find_by_part{
+    color: black;
+    margin: 10px 20px;
+    display: inline-flex;
+    flex-flow: column;
 }
 

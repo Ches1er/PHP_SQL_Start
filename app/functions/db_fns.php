@@ -1,6 +1,6 @@
 <?php
 function db_getConnection(){
-    static $dbh =null;
+    static $dbh =null; //$dbh - будет существовать после того, как ф-ция отработает
     if($dbh!=null) return $dbh;
     $dbh = new PDO(
         "mysql:dbname=notes;host=127.0.0.1;port=3306;charset=utf8",
@@ -23,7 +23,7 @@ function db_insert(string $table,array $arr){
     $stmt->execute($arr);
 }
 
-function db_delete(string $table,$id){
+function db_delete(string $table,int $id){
     $q = "DELETE FROM `{$table}` WHERE `id_note`=?";
     $stmt = db_getConnection()->prepare($q);
     $stmt->execute([$id]);
@@ -40,9 +40,25 @@ function db_insertAll(string $table,array $arr){
     }
 }
 
-function db_selectAll(string $table){
-    $stmt = db_getConnection()->query("SELECT * FROM `{$table}`");
+function db_selectAll(string $table,string $criteria,string $direction){
+
+    $direct=db_getConnection()->quote($direction);
+    $direct=substr($direct,1,strlen($direct)-2);
+    $stmt=db_getConnection()->query("SELECT * FROM `{$table}` ORDER BY {$criteria} {$direct}");
     return $stmt->fetchAll();
+
+/*    $q = "SELECT * FROM `{$table}` ORDER BY `id_note` ?";
+    $stmt=db_getConnection()->prepare($q);
+    $stmt->execute([$direction]);
+    return $stmt->fetchAll();*/
+}
+
+function db_selectByPartofTheName(string $table,$part){
+        if ($part===NULL)return NULL;
+        $q = "SELECT * FROM `{$table}` WHERE `name` LIKE ?";
+        $stmt=db_getConnection()->prepare($q);
+        $stmt->execute(["%$part%"]);
+        return $stmt->fetchAll();
 }
 
 function db_selectPage(string $table,int $page,int $cpp){

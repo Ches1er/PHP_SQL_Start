@@ -1,0 +1,5 @@
+CREATE TABLE `notes_table` (`id_note` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+`name` VARCHAR(255) NOT NULL,`desc` VARCHAR(255) NOT NULL);
+
+INSERT INTO `notes_table` (`name`,`desc`) VALUES ('buy','buy smth'),
+  ('sell','sell smth'),('call','+38502993145'),('add','add friends');
